@@ -15,10 +15,32 @@ a {
     cursor: pointer;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.name a {
+    color: hsl(224, 21%, 14%);
+    font-weight: 600;
+}
+
+.name a:hover {
+    color: hsl(219, 85%, 26%);
+}
+
+#mark p a {
+    font-size: 15px;
+}
+
 .container {
     width: 65%;
     margin: 0 auto;
-    border: 1px solid red;
     border-radius: 10px;
     padding: 20px;
     box-sizing: border-box;
@@ -27,17 +49,18 @@ a {
 
 #top {
     display: flex;
-    gap: 32rem;
+    /* gap: 31rem; */
     align-items: center;
 }
 
-#big {
+
+#big-text {
     font-size: 1.2rem;
     color: hsl(224, 21%, 14%);
     font-weight: 700;
 }
 
-#blue {
+#blue-box {
     width: 25px;
     padding: 3px;
     background-color: hsl(219, 85%, 26%);
@@ -55,29 +78,19 @@ a {
     gap: 10px;
 }
 
-/* #normal {
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-    background-color: hsl(219, 85%, 26%);
-    padding: 1px;
-    border-radius: 10px;
-    margin-left: 5px;
-} */
 
 .bold-blue {
     color: hsl(219, 85%, 26%);
     font-weight: 600;
 }
 
-.bold-black {
-    color: hsl(224, 21%, 14%);
+.bold-grey a {
+    color: hsl(219, 12%, 42%);
     font-weight: 600;
 }
 
-.bold-grey {
-    color: hsl(219, 12%, 42%);
-    font-weight: 600;
+.bold-grey a:hover {
+    color: hsl(219, 85%, 26%);
 }
 
 img {
@@ -113,11 +126,15 @@ img {
 }
 
 #dm {
-    background-color: hsl(211, 68%, 94%);
+    border: 2px solid hsl(211, 68%, 94%);
     padding: 20px;
     border-radius: 8px;
     margin-top: 15px;
     max-width: 90%;
+}
+
+#dm:hover {
+    background-color: hsl(211, 68%, 94%);
 }
 
 #chess {
