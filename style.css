@@ -49,7 +49,7 @@ a {
 
 #top {
     display: flex;
-    /* gap: 31rem; */
+    gap: 31rem;
     align-items: center;
 }
 
