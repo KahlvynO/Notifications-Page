@@ -50,7 +50,9 @@ a {
 #top {
     display: flex;
     gap: 31rem;
+    /* gap: 50%; */
     align-items: center;
+    /* justify-content: flex-end; */
 }
 
 
@@ -139,4 +141,11 @@ img {
 
 #chess {
     margin-left: 240px;
+}
+
+@media screen and (max-width: 992px) {
+
+#top {
+    gap: 50%;
+}
 }
