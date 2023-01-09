@@ -50,9 +50,7 @@ a {
 #top {
     display: flex;
     gap: 31rem;
-    /* gap: 50%; */
     align-items: center;
-    /* justify-content: flex-end; */
 }
 
 

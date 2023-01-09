@@ -34,12 +34,12 @@ Users should be able to:
 
 ![Notification Page Challenge Screenshot (Desktop)](images/Screenshot-desktop.png)
 
-![Notification Page Challenge Screenshot (Desktop)](images/Screenshot-desktop.png)
+![Notification Page Challenge Screenshot (Desktop)](images/Screenshot-mobile.png)
 
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
+- Solution URL: [Github](https://github.com/KahlvynO/Notifications-Page)
 - Live Site URL: [Netlify](https://notifypage.netlify.com)
 
 ## My process
@@ -55,10 +55,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- JS
 
 
 ### What I learned
